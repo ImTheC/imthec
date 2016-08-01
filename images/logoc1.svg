@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="149.16700744628906" height="172.2429962158203" enable-background="new 0 0 149.167 172.243" xml:space="preserve"><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/>
+
+
+<g class="currentLayer"><title>Layer 1</title><polygon fill="#000085" points="149.167,129.183 74.583,172.243 0,129.183 0,43.061 74.583,0 149.167,43.061 " id="svg_1" class="" fill-opacity="1" filter="" opacity="1"/><foreignObject fill="#585858" stroke-dashoffset="" fill-rule="nonzero" font-size="150" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, serif" letter-spacing="0" word-spacing="0" marker-start="" marker-mid="" marker-end="" id="svg_10" x="-26.796610355377197" y="24.38983453546541" width="186.96610604851048" height="144.55932317022416" style="color: rgb(255, 255, 255); text-align: center;" class=""><p style="border: none;outline: none;font-size: inherit;line-height: 1em;padding:0;margin:0;" xmlns="http://www.w3.org/1999/xhtml"><p xmlns="http://www.w3.org/1999/xhtml" style="border: none;outline: none;font-size: inherit;line-height: 1em;padding:0;margin:0;"></p><p xmlns="http://www.w3.org/1999/xhtml" style="border: none;outline: none;font-size: inherit;line-height: 1em;padding:0;margin:0;"></p><p xmlns="http://www.w3.org/1999/xhtml" style="border: none;outline: none;font-size: inherit;line-height: 1em;padding:0;margin:0;">C</p><p style="border: none;outline: none;font-size: inherit;line-height: 1em;padding:0;margin:0;"></p><p style="border: none;outline: none;font-size: inherit;line-height: 1em;padding:0;margin:0;"></p></p></foreignObject></g><defs><filter xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" id="f038" inkscape:label="Button" x="0" y="0" width="1" height="1" inkscape:menu="Bevels" inkscape:menu-tooltip="Soft bevel, slightly depressed middle" color-interpolation-filters="sRGB">
+            <feGaussianBlur stdDeviation="2.3" in="SourceAlpha" result="result0"/>
+            <feMorphology in="SourceAlpha" radius="6.6" result="result1"/>
+            <feGaussianBlur stdDeviation="8.9" in="result1"/>
+            <feColorMatrix id="feColorMatrix2861" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.3 0" result="result91"/>
+            <feComposite in="result0" operator="out" result="result2" in2="result91"/>
+            <feGaussianBlur stdDeviation="1.7" result="result4"/>
+            <feDiffuseLighting surfaceScale="10">
+                <feDistantLight azimuth="225" elevation="45"/>
+            </feDiffuseLighting>
+            <feBlend id="feBlend2863" in2="SourceGraphic" mode="multiply"/>
+            <feComposite in2="SourceAlpha" operator="in" result="result3"/>
+            <feSpecularLighting in="result4" surfaceScale="5" specularExponent="17.9">
+                <feDistantLight azimuth="225" elevation="45"/>
+            </feSpecularLighting>
+            <feComposite in2="result3" operator="atop"/>
+        </filter></defs></svg>
