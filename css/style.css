@@ -30,8 +30,8 @@ table {
 	width: 70%;
 }
 
-.container-fluid {
-	width: 80%;
+.strike {
+	text-decoration: line-through;
 }
 
 .default_color{background-color: #1a237e !important}

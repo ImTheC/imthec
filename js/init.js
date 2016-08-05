@@ -1,4 +1,5 @@
 (function($){
+	"use strict";
   $(function(){
 
     $('.button-collapse').sideNav();
@@ -214,7 +215,9 @@
 	}
 
 	function transformCard(card, size) {
-		return card.style[Modernizr.prefixed('transform')] = 'translate(' + size.left + 'px,' + size.top + 'px)' + ' scale(' + size.width + ',' + size.height + ')';
+		card.style[Modernizr.prefixed('transform')] = 'translate(' + size.left + 'px,' + size.top + 'px)' + ' scale(' + size.width + ',' + size.height + ')';
+
+		return card.style[Modernizr.prefixed('transform')];
 	}
 
 	function hasClass(elem, cls) {
@@ -225,16 +228,15 @@
 
 	function closest(e) {
 	   var el = e.target || e.srcElement;
-	    if (el = el.parentNode) do { //it's an inverse loop
+	    if (el == el.parentNode) do { //it's an inverse loop
 	        var cls = el.className;
 	        if (cls) {
 	            cls = cls.split(" ");
 	            if (-1 !== cls.indexOf("card-work")) {
 	                return el;
-	                break;
 	            }
 	        }
-	    } while (el = el.parentNode);
+	    } while (el == el.parentNode);
 	}
 
 	function scaleCard(e) {
