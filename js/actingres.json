@@ -1,0 +1,106 @@
+[
+	{
+	title: "Film:",
+	data: [
+					{
+						title: "Deadline",
+						role: "Lead",
+						director: "Reid Alt"
+					},
+					{
+						title: "Photographic Memories",
+						role: "Lead",
+						director: "Travis Chesney"
+					},
+					{
+						title: "Replay",
+						role: "Lead",
+						director: "Mohamed Diab"
+					}
+				]
+	},
+	{
+		title: "Voice Over:",
+		data: [
+						{
+							title: "Brenda's Bedtime Stories Vol 1-5",
+							role: "Audio Book Narrator",
+							director: "Christian Record Services"
+						},
+						{
+							title: "Second Chance: From A Life...",
+							role: "Audio Book Narrator",
+							director: "Christian Record Services"
+						},
+						{
+							title: "Breaking The Silence",
+							role: "Audio Book Narrator",
+							director: "Christian Record Services"
+						},
+						{
+							title: "Meet John Doe",
+							role: "Supporting",
+							director: "Scott Glen"
+						}
+					]
+	},
+	{
+		title: "Commercials:",
+		data: [ "Conflict list available upon request" ]
+	},
+	{
+		title: "Theater:",
+		data: [
+						{
+							title: "The Somewhat True Tale of Robin Hood",
+							role: "Robin Hood",
+							director: "Morrie Enders"
+						},
+						{
+							title: "Disney's My Son Pinocchio",
+							role: "Stromboli, Bernardo",
+							director: "Robie Hayek"
+						},
+						{
+							title: "Hairspray",
+							role: "Fender",
+							director: "Morrie Enders"
+						},
+						{
+							title: "Annie",
+							role: "Bert Healy, Ensemble",
+							director: "Morrie Enders"
+						}
+					]
+	},
+	{
+		title: "Training:",
+		data: [
+						{
+							title: "Killian's Commercial Workshop",
+							role: "Killian McHugh",
+							director: "Los Angeles, CA"
+						},
+						{
+							title: "Scene Study & Acting Technique",
+							role: "Nora Stone",
+							director: "New York Film Academy (LA)"
+						},
+						{
+							title: "Audition Technique",
+							role: "Rick Kostenick",
+							director: "New York Film Academy (LA)"
+						},
+						{
+							title: "Voice",
+							role: "Jerri Tubbs",
+							director: "New York Film Academy (LA)"
+						},
+						{
+							title: "Movement",
+							role: "Doug Matranga",
+							director: "New York Film Academy (LA)"
+						}
+					]
+	},
+]
