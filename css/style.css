@@ -22,19 +22,34 @@ img.profile {
 	width: auto;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 table {
 	margin-bottom: 20px;
 }
 
 .modal.modal-fixed-footer {
-	width: 70%;
-	max-height: 80%;
-	height: 80%;
+	width: 85%;
+	max-height: 85%;
+	height: 85%;
 }
 
 .strike {
 	text-decoration: line-through;
 }
+
+.section-medium {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.section-large {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
 
 .default_color{background-color: #1a237e !important}
 
