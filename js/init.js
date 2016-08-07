@@ -34,7 +34,7 @@ initHeadline();
 
 
 function initHeadline() {
-	singleLetters($('.cd-headline.letters').find('b'));
+	singleLetters($('.cd-headline.letters').find('.words'));
 	animateHeadline($('.cd-headline'));
 }
 
@@ -66,7 +66,7 @@ function animateHeadline($headlines) {
 			spanWrapper.css('width', newWidth);
 		} else if (!headline.hasClass('type') ) {
 			//assign to .cd-words-wrapper the width of its longest word
-			var words = headline.find('.cd-words-wrapper b'),
+			var words = headline.find('.cd-words-wrapper .words'),
 				width = 0;
 			words.each(function(){
 				var wordWidth = $(this).width();
@@ -175,8 +175,6 @@ $('.button-collapse').sideNav({
 	closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
 });
 
-$('.parallax').parallax();
-
 var card	= document.querySelectorAll('.card-work');
 	var transEndEventNames = {
 			'WebkitTransition' : 'webkitTransitionEnd',
@@ -277,5 +275,7 @@ function hidePopup(e) {
 	e.target.style['visibility'] = 'hidden';
 	e.target.style['zIndex'] = 2;
 }
+
+$('.cd-words-wrapper').removeClass("hide");
 
 }); // end of document ready

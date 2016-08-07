@@ -26,11 +26,11 @@
 
 <!--Navigation-->
  <div class="navbar-fixed">
-		<nav id="nav_f" class="default_color">
+		<nav class="default_color nav-no-shadow">
 				<div class="nav-wrapper">
 				<a href="#" id="logo-container" class="brand-logo hide-on-small-only bump-left">Christopher Anderson</a>
-				<a href="#" id="logo-containerSM" class="brand-logo hide-on-med-and-up align-right">Christopher</a>
-						<ul class="right hide-on-med-and-down bump-right">
+				<a href="#" id="logo-containerSM" class="brand-logo hide-on-med-and-up">Christopher</a>
+						<ul class="right hide-on-med-and-down">
 								<li><a href="#coder">Coder</a></li>
 								<li><a href="#writer">Wordlicker</a></li>
 								<li><a href="#actor">Actor</a></li>
@@ -51,13 +51,12 @@
 <div class="section no-pad-bot default_color" id="index-banner">
 		<div class="container default_color">
 				<h1 class="text_h center header cd-headline letters type">
-						<span>Im The </span>
-						<span class="cd-words-wrapper waiting">
-								<b class="is-visible">Web Developer</b>
-								<b>Writer</b>
-								<b>Actor</b>
-								<b>Artist</b>
-								<b>C</b>
+						<span>Im The</span><br class="hide-on-med-and-up">
+						<span class="cd-words-wrapper waiting hide">
+								<span class="is-visible words">Coder</span>
+								<span class="words">Writer</span>
+								<span class="words">Actor</span>
+								<span class="words">C</span>
 						</span>
 				</h1>
 		</div>
@@ -69,10 +68,23 @@
 	<div id="main">
 		<div class="container">
 
-			<div class="row">
+<!-- Describtion for small only -->
+			<div class="row hide-on-med-and-up">
+				<div class="col s12">
+					<img class="profileSM circle responsive-img left" src="img/imthecprofile.jpg" alt="Christopher Anderson's Profile Picture">
+					<p class="center header flow-text">As a <span class="span_p">web developer</span>, I creatively solve problems and bring life to ideas. </p>
+					<p class="center header flow-text">As a <span class="span_p">writer</span>, I express life and breathe into existence worlds of imagination.</p>
+					<p class="center header flow-text">As an <span class="span_p">actor</span>, I breathe and feel and  live in other artists' worlds, drawing you into the story, in hopes to entertain and inspire.</p>
+					<p class="center header flow-text"><span class="span_p">Im The C</span>, otherwise known as <span class="span_p">Christopher</span>.</p>
+				</div>
+			</div>
+
+
+<!-- Describtion for medium and up -->
+			<div class="row hide-on-small-only">
 				<div class="col s12">
 					<img class="profile circle responsive-img left" src="img/imthecprofile.jpg" alt="Christopher Anderson's Profile Picture">
-					<h2 class="center header text_h2"> I'm an artist! I create! As a <span class="span_h2">web developer</span>, I creatively solve problems and bring life to ideas. </h2>
+					<h2 class="center header text_h2">As a <span class="span_h2">web developer</span>, I creatively solve problems and bring life to ideas. </h2>
 					<h2 class="center header text_h2">As a <span class="span_h2">writer</span>, I express life and breathe into existence worlds of imagination.</h2>
 					<h2 class="center header text_h2">As an <span class="span_h2">actor</span>, I breathe and feel and  live in other artists' worlds, drawing you into the story, in hopes to entertain and inspire.</h2>
 					<h2 class="center header text_h2"><span class="span_h2">Im The C</span>, otherwise known as <span class="span_h2">Christopher</span>.</h2>
@@ -249,29 +261,33 @@
 				<!-- WordLicker Cards on smaller screens -->
 					<div class="hide-on-med-and-up">
 						<div class="col s12">
-							<div class="card">
-								<div class="card-image">
-									<img class="responsive-img" src="img/thesewords.jpg" alt="These Words I Write">
-								</div>
-								<div class="card-stacked">
-									<div class="card-content">
-										<p class="flow-text">These words that I write capture a moment. A snapshot in time, a glimpse of my mind.	 With colors and shading, a painter’s creating, An image to be explored with the eye. With talent and …</p>
+							<a class="modal-trigger black-text" href="#thesewordsiwrite">
+								<div class="card">
+									<div class="card-image">
+										<img class="responsive-img" src="img/thesewords.jpg" alt="These Words I Write">
+									</div>
+									<div class="card-stacked">
+										<div class="card-content">
+											<p class="flow-text">These words that I write capture a moment. A snapshot in time, a glimpse of my mind.	 With colors and shading, a painter’s creating, An image to be explored with the eye. With talent and …</p>
+										</div>
 									</div>
 								</div>
-							</div>
+							</a>
 						</div>
 
 						<div class="col s12">
-							<div class="card">
-								<div class="card-image">
-									<img class="responsive-img" src="img/ourtwoworlds.jpg" alt="Our Two Worlds">
-								</div>
-								<div class="card-stacked">
-									<div class="card-content">
-										<p class="flow-text">Up upon the risers, the choir stands their ground, While crowds of nameless faces, anticipate their sound. Voices dance with music, flowing to my ears, Fades into the distance, all but disappears. My world ignites with longing, when you I chance to see.…</p>
+							<a class="modal-trigger black-text" href="#ourtwoworlds">
+								<div class="card">
+									<div class="card-image">
+										<img class="responsive-img" src="img/ourtwoworlds.jpg" alt="Our Two Worlds">
+									</div>
+									<div class="card-stacked">
+										<div class="card-content">
+											<p class="flow-text">Up upon the risers, the choir stands their ground, While crowds of nameless faces, anticipate their sound. Voices dance with music, flowing to my ears, Fades into the distance, all but disappears. My world ignites with longing, when you I chance to see.…</p>
+										</div>
 									</div>
 								</div>
-							</div>
+							</a>
 						</div>
 					</div>
 
@@ -283,7 +299,7 @@
 			<div class="modal-content">
 				<div class="container center-align">
 
-					<img src="http://wordlicker.com/wp-content/uploads/2016/02/OldBooksTheseWords-1024x686.jpg" alt="These Words Old Books" width="450" height="302" />
+					<img class="responsive-img" src="http://wordlicker.com/wp-content/uploads/2016/02/OldBooksTheseWords-1024x686.jpg" alt="These Words Old Books"/>
 					<p class="flow-text"><span class="bold">T</span>hese words that I write capture a moment.</p>
 					<p class="flow-text">A snapshot in time, a glimpse of my mind.</p>
 					<div class="section"></div>
@@ -342,7 +358,7 @@
 			<div class="modal-content">
 				<div class="container center-align">
 
-					<img class="center" src="http://wordlicker.com/wp-content/uploads/2016/02/1455903353481-228x300.jpg" alt="Our Two Worlds - Photo by liensca" width="450" height="593" />
+					<img class="responsive-img" src="http://wordlicker.com/wp-content/uploads/2016/02/1455903353481-228x300.jpg" alt="Our Two Worlds - Photo by liensca"/>
 
 					<p class="flow-text"><span class="bold">U</span>p upon the risers, the choir stands their ground,
 					While crowds of nameless faces, anticipate their sound.
